@@ -2,20 +2,23 @@
 Overview
 This project develops a machine learning model to predict equipment energy consumption for SmartManufacture Inc. using sensor data from a manufacturing facility. The goal is to help facility managers optimize operations for energy efficiency.
 Author: Tanish Khandelwal
-Repository Structure
+---
+
+## Repository Structure
+
 .
 ├── data/
-│   └── data.csv          # Dataset
+│   └── data.csv              # Dataset
 ├── docs/
-│   └── data_description.md  # Feature descriptions
+│   └── data_description.md   # Feature descriptions
 ├── notebooks/
-│   └── energy_prediction.ipynb  # Main analysis notebook
+│   └── energy_prediction.ipynb # Main analysis notebook
 ├── scripts/
-│   └── model_utils.py    # Preprocessing and prediction functions
+│   └── model_utils.py        # Preprocessing and prediction functions
 ├── reports/
-│   └── figures/          # Saved plots
-│   └── energy_prediction_report.md  # Final report
-└── README.md             # This file
+│   └── figures/              # Saved plots
+│   └── energy_prediction_report.md # Final report
+└── README.md                 # This file
 
 
 ## Approach
