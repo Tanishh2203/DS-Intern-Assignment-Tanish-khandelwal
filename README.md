@@ -17,36 +17,58 @@ Repository Structure
 │   └── energy_prediction_report.md  # Final report
 └── README.md             # This file
 
-Approach
 
-EDA: Analyzed data distributions, missing values, and relationships. Evaluated random_variable1 and random_variable2 for relevance.
-Preprocessing: Handled non-numeric values, missing data, and engineered features.
-Feature Selection: Excluded random_variable1 and random_variable2 based on low predictive power.
-Model Development: Trained an XGBoost model with cross-validation.
-Evaluation: Assessed performance using RMSE, MAE, and R².
-Insights: Provided recommendations for energy efficiency.
+## Approach
 
-Results
+### 1. **Exploratory Data Analysis (EDA)**
+   - Analyzed data distributions, missing values, and relationships.
+   - Evaluated `random_variable1` and `random_variable2` for relevance.
 
-Model performance metrics are in reports/energy_prediction_report.md.
-Key findings:
-Temperature and time-based features are strong predictors.
-random_variable1 and random_variable2 were excluded.
+### 2. **Preprocessing**
+   - Handled non-numeric values, missing data, and engineered features.
 
+### 3. **Feature Selection**
+   - Excluded `random_variable1` and `random_variable2` based on low predictive power.
 
-Recommendations include optimizing HVAC, scheduling production, and maintaining sensors.
+### 4. **Model Development**
+   - Trained an XGBoost model with cross-validation.
 
-How to Run
+### 5. **Evaluation**
+   - Assessed performance using RMSE, MAE, and R².
 
-Ensure Anaconda is installed.
-Launch Jupyter Notebook via Anaconda Navigator.
-Navigate to D:\DS-Intern-Assignment-Tanish Khandelwal\notebooks.
-Open energy_prediction.ipynb.
-Run all cells (Shift + Enter).
-View the report in reports/energy_prediction_report.md.
+### 6. **Insights**
+   - Provided recommendations for energy efficiency.
 
-Requirements
+## Results
 
-Python 3.9
-Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost
+Model performance metrics are in `reports/energy_prediction_report.md`.
+
+### Key findings:
+- Temperature and time-based features are strong predictors.
+- `random_variable1` and `random_variable2` were excluded.
+
+### Recommendations:
+- Optimize HVAC systems.
+- Schedule production more effectively.
+- Maintain sensors for better data accuracy.
+
+## How to Run
+
+1. Ensure **Anaconda** is installed.
+2. Launch **Jupyter Notebook** via **Anaconda Navigator**.
+3. Navigate to the following directory: 
+   `D:\DS-Intern-Assignment-Tanish Khandelwal\notebooks`.
+4. Open `energy_prediction.ipynb`.
+5. Run all cells (Shift + Enter).
+6. View the report in `reports/energy_prediction_report.md`.
+
+## Requirements
+- Python 3.9
+- Libraries: 
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
 
