@@ -12,16 +12,14 @@ This project develops a machine learning model to predict equipment energy consu
 .
 ├── data/
 │ └── data.csv # Dataset
-├── docs/
-│ └── data_description.md # Feature descriptions
-├── notebooks/
-│ └── energy_prediction.ipynb # Main analysis notebook
+├── notebook/
+│ └── energy_prediction.ipynb 
 ├── scripts/
-│ └── model_utils.py # Preprocessing and prediction functions
+│ └── model_utils.py 
 ├── reports/
-│ ├── figures/ # Saved plots
+│ ├── figures/ 
 │ └── energy_prediction_report.md # Final report
-└── README.md # This file
+└── README.md
 
 ```
 
