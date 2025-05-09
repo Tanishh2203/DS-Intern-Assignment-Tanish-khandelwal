@@ -68,7 +68,7 @@ Model performance metrics are available in `reports/energy_prediction_report.md`
 1. Ensure **Anaconda** is installed.
 2. Launch **Jupyter Notebook** via **Anaconda Navigator**.
 3. Navigate to the following directory:  
-   `D:\DS-Intern-Assignment-Tanish Khandelwal\notebooks`
+   `DS-Intern-Assignment-Tanish_Khandelwal\notebooks`
 4. Open `energy_prediction.ipynb`.
 5. Run all cells (`Shift + Enter`).
 6. View the report in `reports/energy_prediction_report.md`.
@@ -77,7 +77,7 @@ Model performance metrics are available in `reports/energy_prediction_report.md`
 
 ## Requirements
 
-- Python 3.9  
+- Python
 - Libraries:
   - pandas  
   - numpy  
