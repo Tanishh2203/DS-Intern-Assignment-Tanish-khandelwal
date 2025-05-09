@@ -1,4 +1,4 @@
-Smart Factory Energy Prediction Challenge
+## Smart Factory Energy Prediction Challenge
 Overview
 This project develops a machine learning model to predict equipment energy consumption for SmartManufacture Inc. using sensor data from a manufacturing facility. The goal is to help facility managers optimize operations for energy efficiency.
 Author: Tanish Khandelwal
