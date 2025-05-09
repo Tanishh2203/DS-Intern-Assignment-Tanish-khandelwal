@@ -8,6 +8,7 @@ This project develops a machine learning model to predict equipment energy consu
 
 ## Repository Structure
 
+```
 .
 ├── data/
 │ └── data.csv # Dataset
@@ -22,7 +23,7 @@ This project develops a machine learning model to predict equipment energy consu
 │ └── energy_prediction_report.md # Final report
 └── README.md # This file
 
-
+```
 
 ---
 
